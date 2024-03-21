@@ -1,62 +1,98 @@
 body {
-    background-color: rgb(243, 128, 212);
+  background-color: #ffc700;
+  position: relative;
+  height: 200vh;
+  width: auto;
 }
 
 #GengarG {
-    height: 100PX;
-    width: 100PX;
-    margin: AUTO;
+  height: 100px;
+  width: 100px;
+  margin: AUTO;
 }
 
-nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-links{
-    flex: 1;
-    text-align: right;
+.nav-links {
+  flex: 1;
+  text-align: right;
 }
 
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
 }
 
-.nav-links ul li a{
-    color: #fff;
-    text-decoration: none;
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
 }
 
-nav img{
-    width: 150px;
+nav img {
+  width: 150px;
 }
 
-.text-box{
-    width: 90%;
-    color: black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+.text-box {
+  width: 90%;
+  color: 9faeff;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.text-box h1{
-    font-size: 62px;
+.text-box h1 {
+  font-size: 62px;
 }
 
-.hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+}
+
+.card-container {
+  background-color: #ffd580;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 98vh;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.card {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
 }
