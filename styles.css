@@ -41,7 +41,7 @@ nav img {
 
 .text-box {
   width: 90%;
-  color: 9faeff;
+  color: #fff;
   position: absolute;
   top: 25%;
   left: 50%;
@@ -65,7 +65,7 @@ nav img {
 }
 
 .card-container {
-  background-color: #ffd580;
+  background-color: #ffda5b;
   position: absolute;
   bottom: 0;
   display: flex;
