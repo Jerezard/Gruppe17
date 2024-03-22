@@ -31,8 +31,13 @@ nav {
 }
 
 .nav-links ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
+}
+
+.nav-links ul li a:hover{
+  background-color: white;
+  border-radius: 20px;
 }
 
 nav img {
@@ -41,7 +46,7 @@ nav img {
 
 .text-box {
   width: 90%;
-  color: #fff;
+  color: black;
   position: absolute;
   top: 25%;
   left: 50%;
@@ -56,12 +61,18 @@ nav img {
 .hero-btn {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
-  border: 1px solid #fff;
+  color: black;
+  border: 3px solid #fff;
   padding: 12px 34px;
   font-size: 13px;
   background: transparent;
   position: relative;
+}
+
+.hero-btn:hover{
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: #fff;
 }
 
 .card-container {
