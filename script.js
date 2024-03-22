@@ -1,2 +1,6 @@
 
-let carBrand = ["Mercedes", "BMW", "Toyota", "Honda", "Lexus"]
+$(document).ready(function() {
+    $('.nav-toggle').click(function() {
+      $('.nav-links').toggleClass('active');
+    });
+  });
