@@ -1,4 +1,4 @@
-# Sick Site XD
+# Front end of Car Rental project
 
 This project is a simple webpage with a unique style and some interactive elements. It includes a variety of images and a button that triggers JavaScript functions.
 
@@ -12,14 +12,13 @@ No installation is required to view this webpage. Simply open the `index.html` f
 
 The webpage includes a variety of elements:
 
-- A heading and paragraph with some unique text.
-- A button labeled "Secret" that triggers the `rotateImage` and `toggleImage` JavaScript functions when clicked.
-- Several images, including one with the id `phreak`, one with the id `jax`, and one with the id `jeff` that is initially hidden.
-- A heading labeled "Gengar goat" and an image with the id `GengarG`.
+- Homepage
+- Search for car
+- Login/Register account
 
 ### Styles
 
-The webpage uses the `dog.css` stylesheet for styling. It also includes some inline styles in the `index.html` file.
+The webpage uses the `style.css` stylesheet for styling. It also includes some inline styles in the `index.html` file.
 
 ### JavaScript
 
